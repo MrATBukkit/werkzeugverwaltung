@@ -1,0 +1,57 @@
+input[type=text] {
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: #f1f1f1;
+	border: 2px solid #737373;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit].aendern {
+	background-image: url('edit.png');
+	background-color: #f2f2f2;
+	background-repeat:no-repeat;
+	width: 4em;
+	height: 4.4em;
+}
+
+a:link, a:visited {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+	width: 400px;
+}
+
+
+a:hover, a:active {
+    background-color: #3d8f42;
+}
+
+/*Tabellen*/
+table, td, th {    
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
